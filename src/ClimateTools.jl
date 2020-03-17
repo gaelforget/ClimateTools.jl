@@ -4,7 +4,7 @@ module ClimateTools
 using Reexport
 @reexport using ClimateBase
 using NetCDF
-@reexport using NCDatasets
+using NCDatasets
 using Shapefile
 using AxisArrays
 using NaNMath
@@ -20,7 +20,7 @@ using Random
 using Dates
 using GeoStats
 using InverseDistanceWeighting
-using Extremes
+#using Extremes
 using Distances
 import Base.vcat
 import Base.getindex
